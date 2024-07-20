@@ -10,7 +10,7 @@ This is a console-based App User Management System implemented in C#. It provide
   - Email
   - Password strength
   - Nigerian phone number format
-  - Nigerian cities
+  - Nigerian states
   - Minimum age requirement (13 years)
 - User Login with account lockout after multiple failed attempts
 - Secure password hashing using BCrypt
@@ -19,6 +19,7 @@ This is a console-based App User Management System implemented in C#. It provide
 ## Requirements
 - .NET Core SDK (version 3.1 or later)
 - SQLite
+- BCrypt
 
 ## NuGet Packages
 - System.Data.SQLite.Core Version="4.0.3"
